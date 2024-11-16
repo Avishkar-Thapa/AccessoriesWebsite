@@ -169,6 +169,36 @@ header .search-bar button {
     border-radius: 5px;
     box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
 }
+/* Add to Cart Button */
+.add-to-cart {
+    margin-top: 0.5rem;
+    padding: 0.5rem 1rem;
+    border: none;
+    background-color: #ff6f61;
+    color: white;
+    font-size: 0.9rem;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s, transform 0.2s;
+    font-family: 'Roboto', sans-serif;
+}
+
+.add-to-cart:hover {
+    background-color: #e65a4f;
+    transform: scale(1.05);
+}
+
+.add-to-cart:active {
+    transform: scale(0.95);
+}
+
+/* Ensure product alignment */
+.product {
+    text-align: center;
+    margin: 0 1rem;
+    display: inline-block;
+    vertical-align: top;
+}
 #about {
   padding: 3rem;
   text-align: center;
